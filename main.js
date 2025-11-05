@@ -5,15 +5,17 @@ console.log(getRandomInt(1, 10));
 console.log(getRandomInt(40, 50));
 console.log(getRandomInt(1, 100));
 
+
 function greetByName(msg, name) {
-    return [msg , name];
+let = greetByName
+    return [`${msg} ${name}`];
 }
 console.log(greetByName('Hi', 'David'));
 console.log(greetByName('Hey', 'Bob'));
 console.log(greetByName('Hello', 'Mary'));
 
 function sumBigIntegers(numStr1, numStr2) {
-sum = parseInt(numStr1) + parseInt(numStr2);
+const sum = BigInt(numStr1) + BigInt(numStr2);
 return (sum)
 }
 console.log(sumBigIntegers('9007199254740991', '9007199254740991'));
